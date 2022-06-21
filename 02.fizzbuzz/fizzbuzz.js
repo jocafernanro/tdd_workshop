@@ -1,6 +1,7 @@
 const fizzbuzz = (number) => {
-  if (typeof number === "number" && number > 0) return number;
-  return undefined;
+  if (typeof number !== "number" || number < 1)
+    return "Error, the value must be greater than 0";
+  return number;
 };
 
 module.exports = fizzbuzz;
