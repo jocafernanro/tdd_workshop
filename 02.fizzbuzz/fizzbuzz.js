@@ -1,2 +1,5 @@
-const fizzbuzz = "";
+const fizzbuzz = () => {
+  return undefined;
+};
+
 module.exports = fizzbuzz;
