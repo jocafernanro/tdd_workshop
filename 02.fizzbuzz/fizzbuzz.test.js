@@ -7,7 +7,7 @@ describe("when calling fizzbuzz", () => {
     expect(result).toBe(expected);
   });
 
-  test("Should return the given value if the value is of number type", () => {
+  test("Should return the given value if the value is of number type and greater than 0", () => {
     const expected = 20;
     const result = fizzbuzz(20);
     expect(result).toBe(expected);
