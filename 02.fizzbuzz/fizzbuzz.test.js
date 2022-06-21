@@ -36,4 +36,10 @@ describe("when calling fizzbuzz", () => {
     const result = fizzbuzz(15);
     expect(result).toBe(expected);
   });
+
+  test("Should return the number if the given value is no multiple of 3 and 5", () => {
+    const expected = 17;
+    const result = fizzbuzz(17);
+    expect(result).toBe(expected);
+  });
 });

@@ -7,6 +7,7 @@ const fizzbuzz = (number) => {
 
   if (isMultipleOf(3, number)) output += "fizz";
   if (isMultipleOf(5, number)) output += "buzz";
+  if (output === "") output = number;
 
   return output;
 };
