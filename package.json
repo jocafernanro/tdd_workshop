@@ -1,0 +1,20 @@
+{
+  "name": "tdd_workshop",
+  "version": "1.0.0",
+  "author": "",
+  "description": "A TDD workshop project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:oddOrEven": "jest oddOrEven",
+    "test:watch:oddOrEven": "jest --watchAll oddOrEven",
+    "test:fizzbuzz": "jest fizzbuzz",
+    "test:watch:fizzbuzz": "jest --watchAll fizzbuzz"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
