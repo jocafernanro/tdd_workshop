@@ -44,12 +44,12 @@ Output: "even"
 >AC3. If the input array is empty consider it as: [0] (array with a zero).
 
 ```javascript
-Input: [0] //0 is even
-Output: "even"
-
 Input: [0, 1, 4]
 Output: "odd"
 
 Input: [0, -1, -5]
+Output: "even"
+
+Input: [0] //0 is even
 Output: "even"
 ```
