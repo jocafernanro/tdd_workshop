@@ -4,7 +4,7 @@ const fizzbuzz = (number) => {
     return "Error, the value must be greater than 0";
 
   if (number % 3 === 0) result = "fizz";
-  if (number === 5) result = "buzz";
+  if (number % 5 === 0) result = "buzz";
 
   return result;
 };
