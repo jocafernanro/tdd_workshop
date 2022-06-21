@@ -6,4 +6,10 @@ describe("when calling oddOrEven", () => {
     const result = oddOrEven();
     expect(expected).toBe(result);
   });
+
+  test("should return the value that comes from params", () => {
+    const expected = 20;
+    const result = oddOrEven(expected);
+    expect(result).toBe(expected);
+  });
 });

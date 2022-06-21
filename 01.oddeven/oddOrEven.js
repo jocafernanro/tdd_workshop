@@ -1,5 +1,5 @@
-const oddOrEven = () => {
-  return undefined;
+const oddOrEven = (number) => {
+  return number;
 };
 
 module.exports = oddOrEven;
