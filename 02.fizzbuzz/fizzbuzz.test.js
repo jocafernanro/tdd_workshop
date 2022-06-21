@@ -24,4 +24,10 @@ describe("when calling fizzbuzz", () => {
     const result = fizzbuzz(6);
     expect(result).toBe(expected);
   });
+
+  test("Should return buzz if the given value is 5", () => {
+    const expected = "buzz";
+    const result = fizzbuzz(5);
+    expect(result).toBe(expected);
+  });
 });
