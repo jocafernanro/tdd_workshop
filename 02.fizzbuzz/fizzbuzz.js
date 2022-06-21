@@ -12,4 +12,8 @@ const fizzbuzz = (number) => {
   return output;
 };
 
+for (i = 0; i <= 100; i++) {
+  console.log(fizzbuzz(i));
+}
+
 module.exports = fizzbuzz;
