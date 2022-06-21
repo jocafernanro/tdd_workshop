@@ -18,4 +18,10 @@ describe("when calling fizzbuzz", () => {
     const result = fizzbuzz(3);
     expect(result).toBe(expected);
   });
+
+  test("Should return fizz if the given value is multiple of 3", () => {
+    const expected = "fizz";
+    const result = fizzbuzz(6);
+    expect(result).toBe(expected);
+  });
 });
