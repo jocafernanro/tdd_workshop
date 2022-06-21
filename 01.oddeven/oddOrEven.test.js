@@ -24,4 +24,10 @@ describe("when calling oddOrEven", () => {
     const result = oddOrEven(4);
     expect(result).toBe(expected);
   });
+
+  test("should return even then when the given param is 0", () => {
+    const expected = "even";
+    const result = oddOrEven(4);
+    expect(result).toBe(expected);
+  });
 });
