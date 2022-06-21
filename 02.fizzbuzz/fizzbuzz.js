@@ -1,4 +1,5 @@
-const fizzbuzz = () => {
+const fizzbuzz = (number) => {
+  if (typeof number === "number") return number;
   return undefined;
 };
 
